@@ -4,5 +4,6 @@
 # ignore system-generated files
 *.DS_Store
 
-# ignore python checkpoints
-*checkpoints.ipynb
+# ignore python checkpoints and cache
+*checkpoint.ipynb
+*__pycache__*
