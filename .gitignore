@@ -3,3 +3,6 @@
 
 # ignore system-generated files
 *.DS_Store
+
+# ignore python checkpoints
+*checkpoints.ipynb
