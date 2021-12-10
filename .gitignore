@@ -7,3 +7,6 @@
 # ignore python checkpoints and cache
 *checkpoint*
 *__pycache__*
+
+# ignore large data file
+*hit_record.csv
