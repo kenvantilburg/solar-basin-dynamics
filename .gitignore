@@ -1,5 +1,6 @@
 # ignore all logs
 *.log
+*disBatch*
 
 # ignore system-generated files
 *.DS_Store
@@ -10,3 +11,4 @@
 
 # ignore large data file
 *hit_record.csv
+hist_strap_*.npy
