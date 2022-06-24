@@ -1,6 +1,7 @@
 # ignore all logs
 *.log
 *disBatch*
+*slurm*
 
 # ignore system-generated files
 *.DS_Store
