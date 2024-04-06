@@ -1,7 +1,7 @@
 from secular_pt_fun import *
 from secular_pt_param import *
 
-data_dir = '/mnt/home/kvantilburg/ceph/GravitationalBasin/sec_pt/'
+data_dir = '/mnt/home/kvantilburg/ceph/GravitationalBasin/sec_pt_2/'
 
 n_a = int(1e3)
 a_min = 0.4
@@ -26,8 +26,8 @@ pts_xy_Earth_orbit = fn_gen_pts_xyz(df_planets[df_planets['name']=='Earth']['a']
                                     df_planets[df_planets['name']=='Earth']['e'].to_numpy()[0],
                                     n_points=n_sample)[:2,:]
 
-n_orbits = int(1e6)
-n_saves = int(1e3)
+n_orbits = int(1e5)
+n_saves = int(1e2)
 n_t_0 = int(1e3)
 n_points = int(1e3)
 n_bins_xy = int(1e2); n_bins_z = int(1e2);

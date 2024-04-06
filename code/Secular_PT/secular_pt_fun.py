@@ -20,11 +20,20 @@ from matplotlib import font_manager
 from matplotlib import rcParams
 from matplotlib import rc
 
-plt.rcdefaults()
-fontsize = 14
-rcParams['font.family'] = 'sans-serif'
-font_manager.findfont('serif', rebuild_if_missing=True)
-rcParams.update({'font.size':fontsize})
+# plt.rcdefaults()
+# fontsize = 12
+# from matplotlib import font_manager
+# from matplotlib import rcParams
+# from matplotlib import rc
+# font_manager.findfont('serif', rebuild_if_missing=True)
+# rcParams.update({'font.size':fontsize, 'font.family':'serif', 'font.serif':['Computer Modern Roman'], 'mathtext.fontset':'stix'})
+# #rcParams.update({'font.serif':'Computer Modern', 'font.size':fontsize, "mathtext.fontset" : "stix"})
+# rc('text', usetex=False)
+# # custom_preamble = {
+#     "text.usetex": True,
+#     "text.latex.preamble": r"\usepackage{amsmath}"
+#     }
+# plt.rcParams.update(custom_preamble)
 
 from tqdm import tqdm, tqdm_notebook
 from time import time as tictoc
@@ -138,12 +147,12 @@ def fn_gen_pts_xyz(a,e,n_points):
 
 def fn_gen_pts_xyz_E(e_0,inc_0,omega_0,Omega_0,a_0,t_0,t,df_planets,e_il,inc_il,g_l,f_l,beta_l,gamma_l,n_points=100):
     """Generate points along particle's orbit, evolve forward in time via secular perturbation theory, rotate to Earth's frame."""
-    pts_xyz_E = np.zeros((len(t_0),n_points,3))
-    pts_xyz = fn_gen_pts_xyz(a_0,e_0,n_points) # generate points along particle's orbit
-    # possible forward evolutions, for different values of t_0
+    # forward evolution
     [e_evol,inc_evol,omega_evol,Omega_evol] = fn_evol(e_0,inc_0,omega_0,Omega_0,a_0,t_0,t,df_planets,e_il,inc_il,g_l,f_l,beta_l,gamma_l)
+    pts_xyz_E = np.zeros((len(t_0),n_points,3))
     mat_rot_inv_E = fn_mat_rot_inv_E(t,df_planets) # rotation matrix to Earth's plane
-    mat_rot = np.asarray([fn_mat_rot(inc_evol[i],omega_evol[i],Omega_evol[i]) for i in range(len(t_0))])
     for i in range(len(t_0)):
-        pts_xyz_E[i] = np.transpose(mat_rot_inv_E @ mat_rot[i] @ pts_xyz)
+        pts_xyz = fn_gen_pts_xyz(a_0,e_evol[i],n_points) # generate points along particle's orbit
+        mat_rot = fn_mat_rot(inc_evol[i],omega_evol[i],Omega_evol[i])
+        pts_xyz_E[i] = np.transpose(mat_rot_inv_E @ mat_rot @ pts_xyz)
     return pts_xyz_E.reshape(len(t_0)*n_points,3)
