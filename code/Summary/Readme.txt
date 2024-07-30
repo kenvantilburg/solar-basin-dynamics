@@ -6,3 +6,8 @@ tabulates data/Q_DP_solar.csv (energy loss rate for dark
 photons in the sun) and reads it in on subsequent evaluations 
 to save time.  The other two files contain auxiliary 
 functions and plot options.
+
+To view earth hits from forward simulations, unzip all files
+in data/Earth_hits and merge them into one file with
+
+copy hit_record_* hit_record.csv
