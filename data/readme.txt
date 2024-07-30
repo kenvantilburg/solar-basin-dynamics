@@ -8,6 +8,12 @@ dt in some semimajor axis range d(∆a).  These expressions
 are implicitly defined in the companion paper, in Eqs. 5.6 
 and 5.12.
 
+Earth_hits/ contains data for earth hits from forward 
+simulations.  To use this data in 
+code/Summary/constraints.ipynb, unzip all files in 
+Earth_hits and merge them into one file with
+"copy hit_record_* hit_record.csv".
+
 hist.npy is XXX.
 
 Q_DP_solar.csv is the energy loss rate Q for dark photons in 
