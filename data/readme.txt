@@ -14,6 +14,10 @@ code/Summary/constraints.ipynb, unzip all files in
 Earth_hits and merge them into one file with
 "copy hit_record_* hit_record.csv".
 
+The files in paperplots/ are used in the Mathematica
+notebook code/PaperPlots.nb--see that file for the usage
+of each data file.
+
 hist.npy is XXX.
 
 Q_DP_solar.csv is the energy loss rate Q for dark photons in 
@@ -22,5 +26,4 @@ the sun.  It is tabualated in code/Summary/constraints.ipynb.
 struct_b16_agss09.dat contains information about the solar
 model used in code/Summary/constraints.ipynb.
 
-sun_radius_accs.csv is XXX.
 
