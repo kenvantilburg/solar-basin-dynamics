@@ -26,30 +26,32 @@ If you use this code, please cite our paper:
 ```
 and you might want to cite the original "stellar basins" papers for axions and dark photons, respectively:
 ```
-@article{PhysRevD.104.023019,
-  title = {Stellar basins of gravitationally bound particles},
-  author = {Van Tilburg, Ken},
-  journal = {Phys. Rev. D},
-  volume = {104},
-  issue = {2},
-  pages = {023019},
-  numpages = {11},
-  year = {2021},
-  month = {Jul},
-  publisher = {American Physical Society},
-  doi = {10.1103/PhysRevD.104.023019},
-  url = {https://link.aps.org/doi/10.1103/PhysRevD.104.023019}
+@article{VanTilburg:2020jvl,
+    author = "Van Tilburg, Ken",
+    title = "{Stellar basins of gravitationally bound particles}",
+    eprint = "2006.12431",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ph",
+    doi = "10.1103/PhysRevD.104.023019",
+    journal = "Phys. Rev. D",
+    volume = "104",
+    number = "2",
+    pages = "023019",
+    year = "2021"
 }
 ```
 ```
-@article{lasenby2021dark,
-  title={Dark photons in the solar basin},
-  author={Lasenby, Robert and Van Tilburg, Ken},
-  journal={Physical Review D},
-  volume={104},
-  number={2},
-  pages={023020},
-  year={2021},
-  publisher={APS}
+@article{Lasenby:2020goo,
+    author = "Lasenby, Robert and Van Tilburg, Ken",
+    title = "{Dark photons in the solar basin}",
+    eprint = "2008.08594",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ph",
+    doi = "10.1103/PhysRevD.104.023020",
+    journal = "Phys. Rev. D",
+    volume = "104",
+    number = "2",
+    pages = "023020",
+    year = "2021"
 }
 ```
