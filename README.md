@@ -10,7 +10,7 @@ This is our abstract.
 
 The dependencies of the code are listed in [environments.yml](environment.yml).
 
-The [code](code/) folder contains various Jupyter notebooks that reproduce the plots in the paper. These are linked to from the paper.
+The [code](code/) folder contains various Jupyter and Mathematica notebooks that reproduce the plots in the paper. These are linked to from the paper.
 
 ## Authors
 
