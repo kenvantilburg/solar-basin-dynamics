@@ -1,6 +1,6 @@
 # solar-basin-dynamics
 
-Code repository for the paper **Orbital Dynamics of Solar Basin Particles** by Cara Giovanetti, Robert Lasenby, and Ken Van Tilburg.
+Code repository for the paper **Orbital Dynamics of the Solar Basin** by Cara Giovanetti, Robert Lasenby, and Ken Van Tilburg.
 
 ## Abstract
 
