@@ -13,15 +13,7 @@ Our simulations can also be interpreted in the context of gravitational capture 
 
 ## Code
 
-The dependencies of the code are listed in [environments.yml](environment.yml).
-
-The [code](code/) folder contains various Jupyter and Mathematica notebooks that reproduce the plots in the paper. These are linked to from the paper.
-
-## Authors
-
--  Cara Giovanetti (cg3566@nyu.edu)
--  Robert Lasenby (rlasenby@stanford.edu)
--  Ken Van Tilburg (kenvt@nyu.edu)
+The [code](code/) folder contains various Jupyter and Mathematica notebooks that reproduce the plots in the paper. These are linked to from the companion paper.
 
 ## Citation
 
