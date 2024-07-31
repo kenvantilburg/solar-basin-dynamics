@@ -27,7 +27,12 @@ The [code](code/) folder contains various Jupyter and Mathematica notebooks that
 
 If you use this code, please cite our paper:
 ```
-[put Bibtex here]
+@article{solar_basin_dynamics,
+    title = {Orbital Dynamics of the Solar Basin},
+    author = {Giovanetti, Cara and Lasenby, Robert and Van Tilburg, Ken},
+    year={2024},    
+    note={To appear},
+}
 ```
 and you might want to cite the original "stellar basins" papers for axions and dark photons, respectively:
 ```
