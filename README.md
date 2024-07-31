@@ -4,7 +4,12 @@ Code repository for the paper **Orbital Dynamics of Solar Basin Particles** by C
 
 ## Abstract
 
-This is our abstract.
+We study the dynamics of the solar basin---the accumulated population of weakly-interacting particles on bound orbits in the Solar System.
+We focus on particles starting off on Sun-crossing orbits, corresponding to initial conditions of production inside the Sun, and investigate their evolution over the age of the Solar System.
+A combination of analytic methods, secular perturbation theory, and direct numerical integration of orbits sheds light on the long- and short-term evolution of a population of test particles orbiting the Sun and perturbed by the planets.
+Our main results are that the effective lifetime of a solar basin at Earth's location is $\tau_{\rm eff} = 1.20\pm 0.09 \,\mathrm{Gyr}$, and that there is annual (semi-annual) modulation of the basin density with known phase and amplitude at the fractional level of 6.5\% (2.2\%). 
+These results have important implications for direct detection searches of solar basin particles, and the strong temporal modulation signature yields a robust discovery channel.
+Our simulations can also be interpreted in the context of gravitational capture of dark matter in the Solar System, with consequences for any dark-matter phenomenon that may occur below the local escape velocity.
 
 ## Code
 
