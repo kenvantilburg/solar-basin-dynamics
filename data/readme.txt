@@ -18,7 +18,9 @@ The files in paperplots/ are used in the Mathematica
 notebook code/PaperPlots.nb--see that file for the usage
 of each data file.
 
-hist.npy is an output of code/secular_pt.ipynb: a 3D (histogram) array (x,y,z) of the time-averaged solar basin density
+hist.npy is an output of code/secular_pt.ipynb: a 3D 
+(histogram) array (x,y,z) of the time-averaged solar basin 
+density.
 
 Q_DP_solar.csv is the energy loss rate Q for dark photons in 
 the sun.  It is tabualated in code/Summary/constraints.ipynb.
