@@ -1,4 +1,0 @@
-module rm disBatch
-module add disBatch/beta
-module list
-sbatch -n 160 -p cca disBatch task_secular_pt_run.txt

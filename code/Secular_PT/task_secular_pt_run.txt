@@ -1,1 +1,0 @@
-#DISBATCH REPEAT 1000 start 1 ./task_secular_pt_run.sh ${DISBATCH_REPEAT_INDEX} &> log/task_${DISBATCH_REPEAT_INDEX}.log
