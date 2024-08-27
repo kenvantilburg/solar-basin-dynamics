@@ -6,3 +6,7 @@ etc.  Files like earth_hit_parr_XXX are used to determine how many particles
 are on sun/earth crossing orbits, and depend on external files like Output2.jl
 or SolarBasinBasic.jl for formatting or other functions.  run_earth.sh is an
 example SLURM script that calls driver4 to run a backwards simulation.
+
+This directory also contains a jupyter notebook "trajectories.ipynb", which can 
+plot individual particle trajectories (stored in scratch2/, which must be 
+uncompressed before these plots can be generated).
